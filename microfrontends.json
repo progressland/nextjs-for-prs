@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "microfrontends-test": {
+      "development": {
+        "fallback": "https://gg.vercel.app"
+      }
+    },
+    "nextjs-for-prs": {
+      "routing": [
+        { "paths": ["/"] }
+      ],
+      "development": {
+        "fallback": "https://nextjs-boilerplate-2025-01-29-woad.vercel.app"
+      }
+    }
+  }
+}
