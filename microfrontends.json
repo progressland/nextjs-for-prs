@@ -11,7 +11,8 @@
         { "paths": ["/"] }
       ],
       "development": {
-        "fallback": "https://nextjs-boilerplate-2025-01-29-woad.vercel.app"
+        "fallback": "https://nextjs-boilerplate-2025-01-29-woad.vercel.app",
+        "task": "ls && microfrontends proxy --local-apps microfrontends-test nextjs-for-prs"
       }
     }
   }
