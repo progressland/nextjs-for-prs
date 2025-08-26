@@ -12,10 +12,9 @@
       ],
       "development": {
         "fallback": "https://nextjs-boilerplate-2025-01-29-woad.vercel.app",
-        "task": "ls && microfrontends proxy --local-apps microfrontends-test nextjs-for-prs"
-      },"options": {
-    "localProxyPort": 3060
-  }
+        "task": "ls && microfrontends proxy --local-apps microfrontends-test nextjs-for-prs",
+        "local": 3060
+      }
     }
   }
 }
